@@ -1,9 +1,9 @@
-package JeuDeLaVie_V1.ihm;
+package src.ihm;
 
 import javax.swing.*;
 import java.awt.*;
 
-import JeuDeLaVie_V1.Controleur;
+import src.Controleur;
 
 public class PanelMap extends JPanel 
 {
@@ -40,7 +40,6 @@ public class PanelMap extends JPanel
         return this.tabLabel;
     }  
 
-    @Override
     public void majIhm()
     {
         for (int i = 0; i < tabLabel.length; i++) 

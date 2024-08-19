@@ -1,9 +1,9 @@
-package JeuDeLaVie_V1.ihm;
+package src.ihm;
 
 import javax.swing.*;
 import java.awt.*;
 
-import JeuDeLaVie_V1.Controleur;
+import src.Controleur;
 
 public class PanelCount extends JPanel{
     
@@ -19,7 +19,6 @@ public class PanelCount extends JPanel{
         this.add(this.count);
     }
 
-    @Override
     public void majCount()
     {
         this.count.setText(this.ctrl.getNbTour()+"");

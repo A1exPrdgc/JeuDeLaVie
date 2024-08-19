@@ -1,11 +1,11 @@
-package JeuDeLaVie_V1.ihm;
+package src.ihm;
 
 import java.awt.*;
 import javax.swing.*;
 
-import JeuDeLaVie_V1.Controleur;
-import JeuDeLaVie_V1.ihm.PanelCount;
-import JeuDeLaVie_V1.metier.JeuDeLaVie;
+import src.Controleur;
+import src.ihm.PanelCount;
+import src.metier.JeuDeLaVie;
 
 
 public class FrameMap extends JFrame{

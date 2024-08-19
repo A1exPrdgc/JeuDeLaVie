@@ -1,9 +1,9 @@
-package JeuDeLaVie_V1.metier;
+package src.metier;
 
 import java.awt.Color;
 import java.util.concurrent.TimeUnit;
 
-import JeuDeLaVie_V1.Controleur;
+import src.Controleur;
 
 public class JeuDeLaVie 
 {

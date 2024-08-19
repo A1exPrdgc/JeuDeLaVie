@@ -1,9 +1,9 @@
-package JeuDeLaVie_V1;
+package src;
 
 import java.awt.Color;
 
-import JeuDeLaVie_V1.ihm.FrameMap;
-import JeuDeLaVie_V1.metier.JeuDeLaVie;
+import src.ihm.FrameMap;
+import src.metier.JeuDeLaVie;
 
 public class Controleur 
 {
